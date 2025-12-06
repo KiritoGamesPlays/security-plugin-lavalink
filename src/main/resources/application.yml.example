@@ -1,0 +1,7 @@
+plugins:
+  lavalink-security-plugin:
+    mongodbUri: "mongodb://localhost:27017"
+    database: "lavalink_security"
+    collections:
+      searches: "search_logs"
+      ipBlocks: "ip_blocks"
